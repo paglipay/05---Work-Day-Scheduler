@@ -27,7 +27,7 @@ $(document).ready(function () {
     var rightNow  = moment().add(0, 'days').hours(hours.start).minute(0).second(0);
 
     var a = moment().add(0, 'days').hours(hours.start).minute(0).second(0);
-    var b = moment(a).add(10,'hours');
+    var b = moment(a).subtract(12,'hours');
 
     initializeScheduler();
 
