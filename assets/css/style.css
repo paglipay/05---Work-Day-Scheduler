@@ -1,0 +1,13 @@
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    border:0px;
+    width: 100%;
+    background-color: rgba(46, 97, 132, 0.0) !important;
+}
+
+.row{
+    border-bottom: 5px solid #dfdfdf;
+    border-width: thin;
+}
